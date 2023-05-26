@@ -1,0 +1,12 @@
+.job-container {
+  background-color: #000000;
+}
+.sub-container-jobs {
+  display: flex;
+}
+@media screen and (max-width: 576px) {
+  .sub-container-jobs {
+    display: flex;
+    flex-direction: column;
+  }
+}

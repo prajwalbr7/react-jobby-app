@@ -1,0 +1,67 @@
+.Home-container {
+  background-image: url('https://assets.ccbp.in/frontend/react-js/home-lg-bg.png');
+  background-size: cover;
+  height: 100vh;
+}
+.home-body-container {
+  padding: 60px;
+}
+.home-heading-style {
+  font-family: 'Roboto';
+  font-size: 50px;
+  font-weight: bold;
+  color: #ffffff;
+  max-width: 500px;
+  flex-wrap: wrap;
+}
+.home-para-style {
+  font-family: 'Roboto';
+  font-size: 16px;
+  font-weight: 400;
+  color: #ffffff;
+  max-width: 400px;
+  line-height: 2;
+  flex-wrap: wrap;
+}
+.home-button-style {
+  font-family: 'Roboto';
+  font-size: 12px;
+  font-weight: 500;
+  color: #ffffff;
+  width: 80px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  background-color: #6366f1;
+  cursor: pointer;
+  outline: none;
+  border-width: 0px;
+  border-radius: 3px;
+}
+@media screen and (max-width: 576px) {
+  .Home-container {
+    background-image: url('https://assets.ccbp.in/frontend/react-js/home-sm-bg.png');
+    background-size: cover;
+    height: 100vh;
+  }
+  .home-body-container {
+    padding: 40px;
+  }
+  .home-heading-style {
+    font-size: 45px;
+    font-weight: 600;
+    color: #ffffff;
+    flex-wrap: wrap;
+  }
+  .home-para-style {
+    font-size: 18px;
+    font-weight: 400;
+    color: #ffffff;
+    line-height: 2;
+    flex-wrap: wrap;
+  }
+  .home-button-style {
+    font-size: 15px;
+    width: 100px;
+    border-radius: 12px;
+  }
+}

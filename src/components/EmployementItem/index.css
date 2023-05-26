@@ -1,0 +1,11 @@
+.employ-listContainer {
+  list-style-type: none;
+}
+.label-employement-salary-style {
+  font-family: 'Roboto';
+  font-size: 15px;
+  font-weight: 400;
+  color: #f1f5f9;
+  margin-left: 5px;
+  line-height: 1.9;
+}

@@ -1,0 +1,134 @@
+.JobSpec-container {
+  background-color: #000000;
+  padding: 30px;
+}
+.container-description-link {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.href-style {
+  font-family: 'Roboto';
+  font-size: 14px;
+  font-weight: 600;
+  color: #6366f1;
+  text-decoration: none;
+}
+.container-href-icon {
+  color: #6366f1;
+  display: flex;
+  align-items: center;
+}
+.spec-Job-style-job-items-description-heading {
+  font-size: 25px;
+  font-family: 'Roboto';
+  font-weight: 600;
+  color: #f1f5f9;
+}
+.spec-description-style-job-items {
+  font-family: 'Roboto';
+  font-size: 14px;
+  font-weight: 400;
+  color: #cbd5e1;
+  line-height: 1.5;
+
+  margin-top: 0px;
+}
+.skills-heading-style {
+  font-family: 'Roboto';
+  font-size: 18px;
+  font-weight: bold;
+  color: #f1f5f9;
+  margin-top: 40px;
+  line-height: 1.8;
+}
+.skills-ul-style {
+  list-style-type: none;
+
+  padding: 0px;
+  display: flex;
+
+  flex-wrap: wrap;
+}
+.skills-list-style {
+  margin: 10px;
+  width: 400px;
+}
+@media screen and (max-width: 576px) {
+  .skills-list-style {
+    width: 200px;
+  }
+}
+.skills-container-style {
+  display: flex;
+  align-items: center;
+  line-height: 5;
+}
+.skills-img-sizing {
+  width: 50px;
+  height: 50px;
+}
+.skills-para-style {
+  font-family: 'Roboto';
+  font-size: 13px;
+  font-weight: 500;
+  color: #cbd5e1;
+  margin-left: 20px;
+}
+.life-alr-company-sizing {
+  border-radius: 5px;
+}
+.container-flex-lifeAtCompany {
+  display: flex;
+  justify-content: space-between;
+}
+@media screen and (max-width: 576px) {
+  .container-flex-lifeAtCompany {
+    display: flex;
+    flex-direction: column;
+  }
+}
+.similar-job-ul-style {
+  padding: 0px;
+  list-style-type: none;
+  display: flex;
+  flex-wrap: wrap;
+}
+.similar-job-li-style {
+  background-color: #272727;
+  padding: 20px;
+  border-radius: 10px;
+  width: 400px;
+  margin: 10px;
+}
+@media screen and (max-width: 576px) {
+  .similar-job-li-style {
+    width: 100%;
+  }
+}
+.similar-description-style-job-items {
+  font-family: 'Roboto';
+  font-size: 12px;
+  font-weight: 400;
+  color: #cbd5e1;
+  line-height: 1.5;
+}
+.similar-Job-style-job-items-description-heading {
+  font-size: 16px;
+  font-family: 'Roboto';
+  font-weight: 600;
+  color: #f1f5f9;
+}
+.similar-Top-heading-style {
+  font-size: 25px;
+  font-family: 'Roboto';
+  font-weight: 600;
+  color: #f1f5f9;
+  line-height: 2;
+  margin-top: 40px;
+}
+@media screen and (max-width: 576px) {
+  .similar-Top-heading-style {
+    margin-left: 5px;
+  }
+}

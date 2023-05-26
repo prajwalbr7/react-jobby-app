@@ -1,0 +1,72 @@
+.Login-container {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #000000;
+}
+.form-container {
+  width: 400px;
+  border-radius: 5px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background-color: #202020;
+  padding-left: 50px;
+  padding-right: 50px;
+  padding-top: 40px;
+  padding-bottom: 40px;
+  box-sizing: border-box;
+}
+.login-imgae-container {
+  text-align: center;
+  margin-bottom: 30px;
+}
+.login-image-logo-sizing {
+  height: 50px;
+}
+.margin-top {
+  margin-top: 50px;
+}
+.login-label-style {
+  font-family: 'Roboto';
+  font-size: 12px;
+  font-weight: 500;
+  color: #cbd5e1;
+  line-height: 2;
+  margin-top: 20px;
+}
+.input-style-login-page {
+  padding: 5px;
+  height: 32px;
+  border-width: 1px;
+  border-color: #cbd5e1;
+  background-color: #202020;
+  outline: none;
+  border-radius: 2px;
+  font-family: 'Roboto';
+  font-weight: 500;
+  color: #cbd5e1;
+}
+.login-button-style {
+  font-family: 'Roboto';
+  font-size: 12px;
+  font-weight: 600;
+  color: #cbd5e1;
+  background-color: #6366f1;
+  padding-top: 8px;
+  padding-bottom: 8px;
+  border-radius: 5px;
+  border-width: 0px;
+  margin-top: 20px;
+  cursor: pointer;
+  outline: none;
+}
+.required-message-style {
+  font-family: 'Roboto';
+  font-size: 12px;
+  font-weight: 400;
+  color: #ff0b37;
+  line-height: 1.8;
+  margin-top: 0px;
+}
